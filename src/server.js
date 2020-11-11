@@ -15,7 +15,7 @@ io.on('connection', socket => {
     })
 })
 
-mongoose.connect('mongodb+srv://rafael:me2202@cluster0.mp4en.mongodb.net/teste?retryWrites=true&w=majority', 
+mongoose.connect('mongodb+srv://rafael:matos@cluster0.mp4en.mongodb.net/teste?retryWrites=true&w=majority', 
 {
     useNewUrlParser: true,
     useUnifiedTopology: true,
